@@ -7,7 +7,7 @@
         const { email, password } = req.body;
         
         try {
-            console.log('Données reçues du frontend :', { email, password, token});
+            console.log('Données reçues du frontend :', { email, password});
 
             const lowerEmail = email.toLowerCase();
         

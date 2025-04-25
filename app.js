@@ -21,7 +21,9 @@ const PORT = process.env.PORT || 3000; // Utiliser un port différent pour Expre
 app.listen(PORT, () => {
   console.log(`Server express bien configuerer port :${PORT}`);
 });
-
+app.listen(3000, () => {
+  console.log('Server running on http://localhost:3000');
+});
 (async () => {
   try {
 //bch naamel test b requete heki 
